@@ -5,6 +5,7 @@ import "./App.css";
 function App() {
   return (
     <>
+      {/* navbar */}
       <nav className="bg-amber-300">
         <div className="relative w-270 h-20 mx-auto flex items-center justify-between">
                 <ul className="flex gap-4">
@@ -53,10 +54,38 @@ function App() {
                       </button>
                       
 
-                </div>
+                </div> 
+
+                       
            
         </div>
       </nav>
+
+                     {/* hero section */}
+                  <section
+                  className=" relative bg-blue-800">
+                    <div className="w-10/12  max-w-270 flex flex-row justify-between items-center mx-auto">
+                         {/* leftpart */}
+                         <div className="space-y-8"> 
+                          <h1 className="font-mullish font-bold text-[40px] leading-[1.2] text-white">Power Your finace , grow your buiness</h1>
+                          <div className="w-6 h-1 bg-green-300"></div>
+                          <p className="font-mullish text-[18px] leading-7 text-white opacity-70">
+                             Accept Paymets  from customers .Automate payouts to vendors &
+                             employees. Never run out of working capital .
+                          </p>
+                          <button className="bg-blue-500  rounded-md font-mullish font-bold  text-white
+                            hover:bg-blue-300 transition-all duration-200 py-3.75 px-3.75">Sign Up now </button>
+                         </div>
+                         {/* rightpart      */}
+                         <img className="max-w-170"   src="https://cdn.pixabay.com/photo/2018/05/16/18/17/bitcoin-3406638_1280.jpg"></img>
+                         </div>
+                     
+                    
+
+
+
+  
+                  </section>
     </>
   );
 }
